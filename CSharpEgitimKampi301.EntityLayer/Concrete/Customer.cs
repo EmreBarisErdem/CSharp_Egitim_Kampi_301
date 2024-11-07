@@ -18,5 +18,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 
         public string CustomerCity { get; set; }
 
+        public virtual List<Order> Orders { get; set; }
+
     }
 }

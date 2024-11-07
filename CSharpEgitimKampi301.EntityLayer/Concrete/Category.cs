@@ -27,8 +27,8 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 
         public bool CategoryStatus { get; set; }
 
-
-
+        //Navigation Properties
+        public virtual List<Product> Products { get; set; }
 
     }
 }
