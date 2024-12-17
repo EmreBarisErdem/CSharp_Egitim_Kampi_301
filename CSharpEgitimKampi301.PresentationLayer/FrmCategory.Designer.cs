@@ -68,6 +68,7 @@
 			this.btnList.TabIndex = 2;
 			this.btnList.Text = "Listele";
 			this.btnList.UseVisualStyleBackColor = true;
+			this.btnList.Click += new System.EventHandler(this.btnList_Click);
 			// 
 			// datagridview1
 			// 
@@ -134,6 +135,7 @@
 			this.BtnAdd.TabIndex = 9;
 			this.BtnAdd.Text = "Ekle";
 			this.BtnAdd.UseVisualStyleBackColor = true;
+			this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
 			// 
 			// BtnDelete
 			// 
@@ -143,6 +145,7 @@
 			this.BtnDelete.TabIndex = 10;
 			this.BtnDelete.Text = "Sil";
 			this.BtnDelete.UseVisualStyleBackColor = true;
+			this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
 			// 
 			// BtnUpdate
 			// 
@@ -152,6 +155,7 @@
 			this.BtnUpdate.TabIndex = 11;
 			this.BtnUpdate.Text = "Güncelle";
 			this.BtnUpdate.UseVisualStyleBackColor = true;
+			this.BtnUpdate.Click += new System.EventHandler(this.BtnUpdate_Click);
 			// 
 			// btnGetById
 			// 
@@ -161,6 +165,7 @@
 			this.btnGetById.TabIndex = 12;
 			this.btnGetById.Text = "Id\'ye Göre Getir";
 			this.btnGetById.UseVisualStyleBackColor = true;
+			this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
 			// 
 			// Form1
 			// 
