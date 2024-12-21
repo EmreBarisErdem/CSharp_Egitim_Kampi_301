@@ -33,6 +33,7 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 			return _productDal.GetById(id);
 		}
 
+
 		public void TInsert(Product entity)
 		{
 			_productDal.Insert(entity);
@@ -41,6 +42,10 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 		public void TUpdate(Product entity)
 		{
 			_productDal.Update(entity);
+		}
+		public List<Object> TGetProductsWithCategory()
+		{
+			return _productDal.GetProductsWithCategory();
 		}
 	}
 }
